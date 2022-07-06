@@ -1,0 +1,18 @@
+{
+  "usuarios": [
+    {
+      "id": "cPTXZXmnLQI8jIb2JPYEe1d5VR4HpQ09",
+      "name": "matheus",
+      "email": "matheus.pereira@lexartlabs.com",
+      "password": "$2b$10$YGEEA82tFacYHRLBi5TVLeMkn.o440IzFa.KW.6M9ihBjXg8xIxGa",
+      "emailverify": 0
+    },
+    {
+      "id": "cIw9mWp76dTht0x2QINnIXfKmG4GcNEP",
+      "name": "Matheus Pereira",
+      "email": "teste@teste.com",
+      "password": "$2b$10$VMWWa.X6Y.DB76sJAvFZjuURPSJY5.GNIbPRp8vW9KSKQMIzAGUiG",
+      "emailverify": 0
+    }
+  ]
+}
