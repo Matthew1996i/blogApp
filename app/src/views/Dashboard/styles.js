@@ -12,4 +12,20 @@ export const SideBarArea = styled.div`
 
 export const ContentArea = styled.div`
   background-color: #f1f1f1;
+  /* border: 1px solid red; */
+  height: 100%;
+  display: block;
+`;
+
+export const ActionPublication = styled.div`
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 20px 10px;
+  height: calc(100% - 90vh);
+
+  button {
+    color: #fff
+  }
 `;

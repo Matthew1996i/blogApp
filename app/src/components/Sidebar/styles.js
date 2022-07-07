@@ -4,6 +4,9 @@ export const SidebarContainer = styled.div`
   background-color: white;
   height: 100%;
   border-right: 1px solid #dfdfdf;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `;
 
 export const NavBar = styled.nav`
@@ -11,11 +14,17 @@ export const NavBar = styled.nav`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 `;
 
 export const NavBarItens = styled.ul`
   padding: 0;
   font-size: 0.9rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   .nav-item {
     list-style: none;
@@ -27,6 +36,10 @@ export const NavBarItens = styled.ul`
     font-weight: 700;
   }
 
+  .nav-item.btn-logout {
+    color: #ca2a38;
+  }
+
   .nav-item:hover {
     background-color: #262626;
     color: #fff;
@@ -35,27 +48,5 @@ export const NavBarItens = styled.ul`
 
   hr {
     margin-top: 55vh;
-  }
-`;
-
-export const Profile = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-  padding: 0px 10px;
-  margin-bottom: 80px;
-
-  img {
-    width: 60px;
-    height: 60px;
-    border: 1px solid #dfdfdf;
-    border-radius: 50px;
-    margin-right: 15px;
-  }
-
-  h2 {
-    font-size: 1.2rem;
-    color: #747474;
   }
 `;

@@ -20,7 +20,7 @@ export default function Sidebar() {
         <NavBarItens>
           <div>
             <Nav.Item onClick={() => history.push('/user/dashboard')}>
-              Dashboard
+              Timeline
             </Nav.Item>
           </div>
           <Nav.Item onClick={() => logOut()} className="btn-logout">
